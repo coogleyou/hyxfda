@@ -1,0 +1,27 @@
+.coda-slider-no-js .coda-slider { overflow: hidden !important;}
+.coda-slider, .coda-slider .panel {
+	width: 960px;
+	height: 289px;
+	overflow:hidden;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.coda-nav ul li a.current { background: url(../images/slider-active.gif)/*tpa=http://www.bjsslh.com/templates/skin_cn/images/images/slider-active.gif*/ no-repeat 0 0; }
+.coda-slider p.loading { padding: 20px; text-align: center; }
+.coda-nav { float: left;  }
+
+.coda-nav ul { display:none;clear:both;display: block;overflow:hidden;display: block;  margin-top:446px;margin-left:1070px; z-index: 999;width: 80px!important;position:absolute;}
+
+.coda-nav ul li { display: inline }
+.coda-nav ul li a { background: url(../images/slider-inactive.gif)/*tpa=http://www.bjsslh.com/templates/skin_cn/images/images/slider-inactive.gif*/ no-repeat 0 0; width: 13px; height: 13px; display: block; float: left; margin-right: 6px; outline: none; }
+.coda-slider {
+	width:960px;
+	height:289px;
+	overflow: hidden;
+	position: relative;
+}
+.coda-slider .panel { display: block; float: left;}
+
+.coda-nav-left, .coda-nav-right { display: none; }
