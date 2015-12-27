@@ -61,4 +61,4 @@ function addlinksubmit(info2,info3){
 }
 function pressCaptcha(obj){ obj.value = obj.value.toUpperCase();}
 function ResumeError() { return true; } 
-window.onerror = ResumeError; 
+window.onerror = ResumeError;

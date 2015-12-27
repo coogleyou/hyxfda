@@ -12,6 +12,13 @@
     <style type="text/css">
         body {
         }
+        table{
+            margin-top: 30px;
+        }
+        table,td{
+            border: 1px solid #ccc;
+            text-align: center;
+        }
     </style>
 </head>
 <script src="../public/js/public.js" type="text/javascript" language="javascript"></script>
@@ -22,7 +29,7 @@
 <script type="text/javascript" src="../templates/skin_cn/images/js/jquery.coda-slider-2.0.js"></script>
 <script src="../templates/skin_cn/images/js/fun.inc.js" type="text/javascript"></script>
 
-<body oncontextmenu=self.event.returnValue=false onselectstart="return false">
+<body >
 
 <div class="top">
     <div class="logo left"><a title="淮阳县食品药品监督局" href="index.htm"><img alt="淮阳县食品药品监督局"
@@ -410,11 +417,25 @@
 <!-- end .main_right_nr-->
 
 <div class="clear"></div>
+
+<div class="bottom">
+
+    <div class="bottom2">
+        <div class="bottom_nav">
+
+        </div>
+        <div class="clear"></div>
+        <div>
+            地址：河南省周口市淮阳县羲皇大道中段　&nbsp;&nbsp;&nbsp;&nbsp;邮编 : 466000 &nbsp;&nbsp;&nbsp;&nbsp;电话 ：0394-2689629&nbsp;&nbsp;&nbsp;&nbsp;　Email
+            ：hyyj_123@126.com
+        </div>
+    </div>
+</div>
 <script type="text/javascript">
 $(function(){
     var punish = $('#punish');
     var ss = punish.text().split('\n');
-    var html = '<table border="1px"><tbody><tr><td>序号</td><td>行政处罚决定书文号</td>'
+    var html = '<table cellpadding="0" cellspacing="0"><tbody><tr><td>序号</td><td>行政处罚决定书文号</td>'
             +'<td>违法企业名称</td>'
             +'<td>法定代表人</td>'
             +'<td>主要违法事实</td>'
@@ -424,11 +445,11 @@ $(function(){
             +'<td>行政处罚期限</td>'
             +'<td>作出处罚的机关</td>'
             +'<td>日期</td>'
-            +'<td>备注</td></tr>';
+            +'</tr>';
     for(var i=0; i<ss.length; i++){
         var its = ss[i].split(',');
         html += '<tr>';
-        for(var j=0; j<12; j++){
+        for(var j=0; j<11; j++){
             html += '<td>' + its[j] + '</td>';
         }
         html += '</tr>';
