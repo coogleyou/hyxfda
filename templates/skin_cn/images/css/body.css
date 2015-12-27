@@ -196,9 +196,9 @@ img{ border:none; vertical-align:top;}
 }
 
 .main_a .about_text {
-	float: right;
-	width: 635px;
-	height: 180px;
+	#float: right;
+	width: 960px;
+	height: 140px;
 }
 .main_a.w960 h2 {
 	line-height: 33px;
@@ -268,7 +268,7 @@ img{ border:none; vertical-align:top;}
 	font-weight: bold;
 }
 .main_b_b ul li {
-	height: 90px;
+	height: 120px;
 }
 .main_b_b ul li h3 span {
 	font-size: 11px;
